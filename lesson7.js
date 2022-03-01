@@ -52,26 +52,26 @@ return k
 console.log(fibon(5,10))
  
 //3_1
-let arr1=[]
- 
-function fib(n)
-{
+function fib(n) {
     let a = 0;
     let b = 1;
     for (let i = 3; i <= n; i++) {
-      let c = a + b;
-      a = b;
-      b = c;
+        let c = a + b;
+        a = b;
+        b = c;
     }
     return b;
-  }
- 
-  for (let i=N;i<N+M; i++)
-  {
-      arr1.push(fib(i))
-  }
- 
-console.log(arr1)
+}
+
+
+function createMassive(a, b) {
+    let arr1 = []
+    for (let i = a; i < a + b; i++) {
+        arr1.push(fib(i))
+    }
+    return arr1
+}
+console.log(createMassive(N, M))
  
 //4
 let n1 = 3487
