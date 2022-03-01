@@ -73,6 +73,20 @@ function createMassive(a, b) {
 }
 console.log(createMassive(N, M))
  
+
+
+// function findFibonacci(n) // можно еще сделать функцию через рекурсию, но это следующая тема 
+// {
+//     if (n == 0)
+//         return 0;
+
+//     if (n == 1)
+//         return 1;
+
+//     return findFibonacci(n - 1) + findFibonacci(n - 2);
+// }
+
+
 //4
 let n1 = 3487
 let n2 = 3794
