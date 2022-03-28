@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "type": "tsc",
     "test": "node ./biuld/index.js",
     "lint": "eslint index.ts",
     "lintf": "eslint index.ts --fix",
