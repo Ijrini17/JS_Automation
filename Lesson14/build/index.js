@@ -74,8 +74,8 @@ console.log(createMassive(N, M));
 const n1 = 3487;
 const n2 = 3794;
 function count(a, b) {
-    const a1 = a.toString().split("");
-    const a2 = b.toString().split("");
+    const a1 = a.toString().split('');
+    const a2 = b.toString().split('');
     let counter1 = 0;
     let counter2 = 0;
     for (let i = 0; i < a1.length; i++) {

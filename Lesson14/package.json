@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./biuld/index.js",
-    "lint": "eslint index.ts",
-    "lintf": "eslint index.ts --fix",
-    "pretty": "prettier --write index.ts"
+    "type": "tsc",
+    "test": "node ./build/index.js",
+    "lint": "eslint *.ts ",
+    "lintf": "eslint *.ts --fix",
+    "pretty": "prettier --write *.ts"
   },
   "author": "",
   "license": "ISC",
