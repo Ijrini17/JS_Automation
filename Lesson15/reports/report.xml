@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="tests" tests="35" failures="2" errors="0" time="0.943">
+  <testsuite name="test\test.test.js" errors="0" failures="2" skipped="0" timestamp="2022-04-03T18:31:32" time="0.769" tests="35">
+    <testcase classname="Test suite for addition-test adding with spread parameters" name="Test suite for addition-test adding with spread parameters" time="0.005">
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with usual parameters" name="Test suite for addition-test adding with usual parameters" time="0">
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with parameter as massive" name="Test suite for addition-test adding with parameter as massive" time="0">
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with decimals" name="Test suite for addition-test adding with decimals" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 3.77
+Received: 3.7700000000000005
+    at Object.&lt;anonymous&gt; (C:\Users\Iryna\JS_Automation\Lesson15\test\test.test.js:21:55)
+    at Promise.then.completed (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:25:3)</failure>
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with string" name="Test suite for addition-test adding with string" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with many decimals" name="Test suite for addition-test adding with many decimals" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with value in 16-system" name="Test suite for addition-test adding with value in 16-system" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with expression" name="Test suite for addition-test adding with expression" time="0">
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with e-number" name="Test suite for addition-test adding with e-number" time="0">
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with Infinity" name="Test suite for addition-test adding with Infinity" time="0.015">
+    </testcase>
+    <testcase classname="Test suite for addition-test adding with NaN" name="Test suite for addition-test adding with NaN" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for multiplication-test multiply with spread parameter" name="Test suite for multiplication-test multiply with spread parameter" time="0">
+    </testcase>
+    <testcase classname="Test suite for multiplication-test multiply with usual parameter" name="Test suite for multiplication-test multiply with usual parameter" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for multiplication-test multiply with 0" name="Test suite for multiplication-test multiply with 0" time="0">
+    </testcase>
+    <testcase classname="Test suite for multiplication-test multiply with wrong argument (NaN)" name="Test suite for multiplication-test multiply with wrong argument (NaN)" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for substraction-test subtraction" name="Test suite for substraction-test subtraction" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for substraction-test subtraction with strings" name="Test suite for substraction-test subtraction with strings" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for substraction-test subtraction with decimals" name="Test suite for substraction-test subtraction with decimals" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: -59966.12
+Received: -59966.119999999995
+    at Object.&lt;anonymous&gt; (C:\Users\Iryna\JS_Automation\Lesson15\test\test.test.js:82:63)
+    at Promise.then.completed (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\Users\Iryna\JS_Automation\Lesson15\node_modules\jest-circus\build\run.js:25:3)</failure>
+    </testcase>
+    <testcase classname="Test suite for substraction-test subtraction with boolean" name="Test suite for substraction-test subtraction with boolean" time="0">
+    </testcase>
+    <testcase classname="Test suite for substraction-test subtraction with strings" name="Test suite for substraction-test subtraction with strings" time="0">
+    </testcase>
+    <testcase classname="Test suite for substraction-test subtraction with Infinity" name="Test suite for substraction-test subtraction with Infinity" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for division-test division" name="Test suite for division-test division" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for division-test division with strings" name="Test suite for division-test division with strings" time="0">
+    </testcase>
+    <testcase classname="Test suite for division-test division with decimals" name="Test suite for division-test division with decimals" time="0">
+    </testcase>
+    <testcase classname="Test suite for division-test subtraction with boolean" name="Test suite for division-test subtraction with boolean" time="0">
+    </testcase>
+    <testcase classname="Test suite for division-test division by zero" name="Test suite for division-test division by zero" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for division-test division with strings" name="Test suite for division-test division with strings" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for division-test division with Infinity" name="Test suite for division-test division with Infinity" time="0.002">
+    </testcase>
+    <testcase classname="Test suite for exponentiation-test  exponentiation with zero exponenta" name="Test suite for exponentiation-test  exponentiation with zero exponenta" time="0">
+    </testcase>
+    <testcase classname="Test suite for exponentiation-test exponentiation" name="Test suite for exponentiation-test exponentiation" time="0">
+    </testcase>
+    <testcase classname="Test suite for exponentiation-test exponentiation with decimal exponenta" name="Test suite for exponentiation-test exponentiation with decimal exponenta" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for exponentiation-test exponentiation" name="Test suite for exponentiation-test exponentiation" time="0">
+    </testcase>
+    <testcase classname="Test suite for exponentiation-test exponentiation with negative exponenta" name="Test suite for exponentiation-test exponentiation with negative exponenta" time="0">
+    </testcase>
+    <testcase classname="Test suite for exponentiation-test exponentiation with wrong argument" name="Test suite for exponentiation-test exponentiation with wrong argument" time="0.001">
+    </testcase>
+    <testcase classname="Test suite for exponentiation-test exponentiation with wrong argument" name="Test suite for exponentiation-test exponentiation with wrong argument" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
