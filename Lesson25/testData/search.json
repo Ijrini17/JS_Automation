@@ -1,0 +1,185 @@
+{
+    "type": "object",
+    "properties": {
+      "meta": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "response": {
+        "type": "object",
+        "properties": {
+          "hits": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "highlights": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "index": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "result": {
+                    "type": "object",
+                    "properties": {
+                      "annotation_count": {
+                        "type": "integer"
+                      },
+                      "api_path": {
+                        "type": "string"
+                      },
+                      "artist_names": {
+                        "type": "string"
+                      },
+                      "full_title": {
+                        "type": "string"
+                      },
+                      "header_image_thumbnail_url": {
+                        "type": "string"
+                      },
+                      "header_image_url": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "lyrics_owner_id": {
+                        "type": "integer"
+                      },
+                      "lyrics_state": {
+                        "type": "string"
+                      },
+                      "path": {
+                        "type": "string"
+                      },
+                      "pyongs_count": {
+                        "type": "integer"
+                      },
+                      "song_art_image_thumbnail_url": {
+                        "type": "string"
+                      },
+                      "song_art_image_url": {
+                        "type": "string"
+                      },
+                      "stats": {
+                        "type": "object",
+                        "properties": {
+                          "unreviewed_annotations": {
+                            "type": "integer"
+                          },
+                          "hot": {
+                            "type": "boolean"
+                          },
+                          "pageviews": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "unreviewed_annotations",
+                          "hot",
+                          "pageviews"
+                        ]
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "title_with_featured": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      },
+                      "primary_artist": {
+                        "type": "object",
+                        "properties": {
+                          "api_path": {
+                            "type": "string"
+                          },
+                          "header_image_url": {
+                            "type": "string"
+                          },
+                          "id": {
+                            "type": "integer"
+                          },
+                          "image_url": {
+                            "type": "string"
+                          },
+                          "is_meme_verified": {
+                            "type": "boolean"
+                          },
+                          "is_verified": {
+                            "type": "boolean"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "url": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "api_path",
+                          "header_image_url",
+                          "id",
+                          "image_url",
+                          "is_meme_verified",
+                          "is_verified",
+                          "name",
+                          "url"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "annotation_count",
+                      "api_path",
+                      "artist_names",
+                      "full_title",
+                      "header_image_thumbnail_url",
+                      "header_image_url",
+                      "id",
+                      "lyrics_owner_id",
+                      "lyrics_state",
+                      "path",
+                      "pyongs_count",
+                      "song_art_image_thumbnail_url",
+                      "song_art_image_url",
+                      "stats",
+                      "title",
+                      "title_with_featured",
+                      "url",
+                      "primary_artist"
+                    ]
+                  }
+                },
+                "required": [
+                  "highlights",
+                  "index",
+                  "type",
+                  "result"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "hits"
+        ]
+      }
+    },
+    "required": [
+      "meta",
+      "response"
+    ]
+  }

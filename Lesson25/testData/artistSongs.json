@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "integer"
+        }
+      }
+    },
+    "response": {
+      "type": "object",
+      "properties": {
+        "songs": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "next_page": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

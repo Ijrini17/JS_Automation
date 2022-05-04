@@ -1,0 +1,1855 @@
+{
+    
+    "type": "object",
+    "properties": {
+      "meta": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "response": {
+        "type": "object",
+        "properties": {
+          "song": {
+            "type": "object",
+            "properties": {
+              "annotation_count": {
+                "type": "integer"
+              },
+              "api_path": {
+                "type": "string"
+              },
+              "apple_music_id": {
+                "type": "string"
+              },
+              "apple_music_player_url": {
+                "type": "string"
+              },
+              "artist_names": {
+                "type": "string"
+              },
+              "description": {
+                "type": "object",
+                "properties": {
+                  "dom": {
+                    "type": "object",
+                    "properties": {
+                      "tag": {
+                        "type": "string"
+                      },
+                      "children": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "tag": {
+                                "type": "string"
+                              },
+                              "children": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "tag",
+                              "children"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "tag",
+                      "children"
+                    ]
+                  }
+                },
+                "required": [
+                  "dom"
+                ]
+              },
+              "embed_content": {
+                "type": "string"
+              },
+              "featured_video": {
+                "type": "boolean"
+              },
+              "full_title": {
+                "type": "string"
+              },
+              "header_image_thumbnail_url": {
+                "type": "string"
+              },
+              "header_image_url": {
+                "type": "string"
+              },
+              "id": {
+                "type": "integer"
+              },
+              "lyrics_owner_id": {
+                "type": "integer"
+              },
+              "lyrics_placeholder_reason": {
+                "type": "null"
+              },
+              "lyrics_state": {
+                "type": "string"
+              },
+              "path": {
+                "type": "string"
+              },
+              "pyongs_count": {
+                "type": "null"
+              },
+              "recording_location": {
+                "type": "null"
+              },
+              "release_date": {
+                "type": "string"
+              },
+              "release_date_for_display": {
+                "type": "string"
+              },
+              "song_art_image_thumbnail_url": {
+                "type": "string"
+              },
+              "song_art_image_url": {
+                "type": "string"
+              },
+              "stats": {
+                "type": "object",
+                "properties": {
+                  "accepted_annotations": {
+                    "type": "integer"
+                  },
+                  "contributors": {
+                    "type": "integer"
+                  },
+                  "iq_earners": {
+                    "type": "integer"
+                  },
+                  "transcribers": {
+                    "type": "integer"
+                  },
+                  "unreviewed_annotations": {
+                    "type": "integer"
+                  },
+                  "verified_annotations": {
+                    "type": "integer"
+                  },
+                  "hot": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "accepted_annotations",
+                  "contributors",
+                  "iq_earners",
+                  "transcribers",
+                  "unreviewed_annotations",
+                  "verified_annotations",
+                  "hot"
+                ]
+              },
+              "title": {
+                "type": "string"
+              },
+              "title_with_featured": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "current_user_metadata": {
+                "type": "object",
+                "properties": {
+                  "permissions": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "excluded_permissions": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "interactions": {
+                    "type": "object",
+                    "properties": {
+                      "pyong": {
+                        "type": "boolean"
+                      },
+                      "following": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "pyong",
+                      "following"
+                    ]
+                  },
+                  "relationships": {
+                    "type": "object",
+                    "properties": {
+                      "pinned_role": {
+                        "type": "null"
+                      }
+                    },
+                    "required": [
+                      "pinned_role"
+                    ]
+                  },
+                  "iq_by_action": {
+                    "type": "object",
+                    "properties": {
+                      "edit_metadata": {
+                        "type": "object",
+                        "properties": {
+                          "primary": {
+                            "type": "object",
+                            "properties": {
+                              "multiplier": {
+                                "type": "integer"
+                              },
+                              "base": {
+                                "type": "number"
+                              },
+                              "applicable": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "multiplier",
+                              "base",
+                              "applicable"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "primary"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "edit_metadata"
+                    ]
+                  }
+                },
+                "required": [
+                  "permissions",
+                  "excluded_permissions",
+                  "interactions",
+                  "relationships",
+                  "iq_by_action"
+                ]
+              },
+              "album": {
+                "type": "object",
+                "properties": {
+                  "api_path": {
+                    "type": "string"
+                  },
+                  "cover_art_url": {
+                    "type": "string"
+                  },
+                  "full_title": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "integer"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  },
+                  "artist": {
+                    "type": "object",
+                    "properties": {
+                      "api_path": {
+                        "type": "string"
+                      },
+                      "header_image_url": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "image_url": {
+                        "type": "string"
+                      },
+                      "is_meme_verified": {
+                        "type": "boolean"
+                      },
+                      "is_verified": {
+                        "type": "boolean"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      },
+                      "iq": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "api_path",
+                      "header_image_url",
+                      "id",
+                      "image_url",
+                      "is_meme_verified",
+                      "is_verified",
+                      "name",
+                      "url",
+                      "iq"
+                    ]
+                  }
+                },
+                "required": [
+                  "api_path",
+                  "cover_art_url",
+                  "full_title",
+                  "id",
+                  "name",
+                  "url",
+                  "artist"
+                ]
+              },
+              "custom_performances": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "type": "string"
+                      },
+                      "artists": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "api_path": {
+                                "type": "string"
+                              },
+                              "header_image_url": {
+                                "type": "string"
+                              },
+                              "id": {
+                                "type": "integer"
+                              },
+                              "image_url": {
+                                "type": "string"
+                              },
+                              "is_meme_verified": {
+                                "type": "boolean"
+                              },
+                              "is_verified": {
+                                "type": "boolean"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "url": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "api_path",
+                              "header_image_url",
+                              "id",
+                              "image_url",
+                              "is_meme_verified",
+                              "is_verified",
+                              "name",
+                              "url"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "label",
+                      "artists"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "type": "string"
+                      },
+                      "artists": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "api_path": {
+                                "type": "string"
+                              },
+                              "header_image_url": {
+                                "type": "string"
+                              },
+                              "id": {
+                                "type": "integer"
+                              },
+                              "image_url": {
+                                "type": "string"
+                              },
+                              "is_meme_verified": {
+                                "type": "boolean"
+                              },
+                              "is_verified": {
+                                "type": "boolean"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "url": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "api_path",
+                              "header_image_url",
+                              "id",
+                              "image_url",
+                              "is_meme_verified",
+                              "is_verified",
+                              "name",
+                              "url"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "label",
+                      "artists"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "type": "string"
+                      },
+                      "artists": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "api_path": {
+                                "type": "string"
+                              },
+                              "header_image_url": {
+                                "type": "string"
+                              },
+                              "id": {
+                                "type": "integer"
+                              },
+                              "image_url": {
+                                "type": "string"
+                              },
+                              "is_meme_verified": {
+                                "type": "boolean"
+                              },
+                              "is_verified": {
+                                "type": "boolean"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "url": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "api_path",
+                              "header_image_url",
+                              "id",
+                              "image_url",
+                              "is_meme_verified",
+                              "is_verified",
+                              "name",
+                              "url"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "label",
+                      "artists"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "type": "string"
+                      },
+                      "artists": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "api_path": {
+                                "type": "string"
+                              },
+                              "header_image_url": {
+                                "type": "string"
+                              },
+                              "id": {
+                                "type": "integer"
+                              },
+                              "image_url": {
+                                "type": "string"
+                              },
+                              "is_meme_verified": {
+                                "type": "boolean"
+                              },
+                              "is_verified": {
+                                "type": "boolean"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "url": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "api_path",
+                              "header_image_url",
+                              "id",
+                              "image_url",
+                              "is_meme_verified",
+                              "is_verified",
+                              "name",
+                              "url"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "label",
+                      "artists"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "type": "string"
+                      },
+                      "artists": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "api_path": {
+                                "type": "string"
+                              },
+                              "header_image_url": {
+                                "type": "string"
+                              },
+                              "id": {
+                                "type": "integer"
+                              },
+                              "image_url": {
+                                "type": "string"
+                              },
+                              "is_meme_verified": {
+                                "type": "boolean"
+                              },
+                              "is_verified": {
+                                "type": "boolean"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "url": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "api_path",
+                              "header_image_url",
+                              "id",
+                              "image_url",
+                              "is_meme_verified",
+                              "is_verified",
+                              "name",
+                              "url"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "label",
+                      "artists"
+                    ]
+                  }
+                ]
+              },
+              "description_annotation": {
+                "type": "object",
+                "properties": {
+                  "_type": {
+                    "type": "string"
+                  },
+                  "annotator_id": {
+                    "type": "integer"
+                  },
+                  "annotator_login": {
+                    "type": "string"
+                  },
+                  "api_path": {
+                    "type": "string"
+                  },
+                  "classification": {
+                    "type": "string"
+                  },
+                  "fragment": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "integer"
+                  },
+                  "is_description": {
+                    "type": "boolean"
+                  },
+                  "path": {
+                    "type": "string"
+                  },
+                  "range": {
+                    "type": "object",
+                    "properties": {
+                      "content": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "content"
+                    ]
+                  },
+                  "song_id": {
+                    "type": "integer"
+                  },
+                  "url": {
+                    "type": "string"
+                  },
+                  "verified_annotator_ids": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "annotatable": {
+                    "type": "object",
+                    "properties": {
+                      "api_path": {
+                        "type": "string"
+                      },
+                      "client_timestamps": {
+                        "type": "object",
+                        "properties": {
+                          "updated_by_human_at": {
+                            "type": "integer"
+                          },
+                          "lyrics_updated_at": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "updated_by_human_at",
+                          "lyrics_updated_at"
+                        ]
+                      },
+                      "context": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "image_url": {
+                        "type": "string"
+                      },
+                      "link_title": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "api_path",
+                      "client_timestamps",
+                      "context",
+                      "id",
+                      "image_url",
+                      "link_title",
+                      "title",
+                      "type",
+                      "url"
+                    ]
+                  },
+                  "annotations": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "api_path": {
+                            "type": "string"
+                          },
+                          "body": {
+                            "type": "object",
+                            "properties": {
+                              "dom": {
+                                "type": "object",
+                                "properties": {
+                                  "tag": {
+                                    "type": "string"
+                                  }
+                                },
+                                "required": [
+                                  "tag"
+                                ]
+                              }
+                            },
+                            "required": [
+                              "dom"
+                            ]
+                          },
+                          "comment_count": {
+                            "type": "integer"
+                          },
+                          "community": {
+                            "type": "boolean"
+                          },
+                          "custom_preview": {
+                            "type": "null"
+                          },
+                          "has_voters": {
+                            "type": "boolean"
+                          },
+                          "id": {
+                            "type": "integer"
+                          },
+                          "pinned": {
+                            "type": "boolean"
+                          },
+                          "share_url": {
+                            "type": "string"
+                          },
+                          "source": {
+                            "type": "null"
+                          },
+                          "state": {
+                            "type": "string"
+                          },
+                          "url": {
+                            "type": "string"
+                          },
+                          "verified": {
+                            "type": "boolean"
+                          },
+                          "votes_total": {
+                            "type": "integer"
+                          },
+                          "current_user_metadata": {
+                            "type": "object",
+                            "properties": {
+                              "permissions": {
+                                "type": "array",
+                                "items": {}
+                              },
+                              "excluded_permissions": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              },
+                              "interactions": {
+                                "type": "object",
+                                "properties": {
+                                  "cosign": {
+                                    "type": "boolean"
+                                  },
+                                  "pyong": {
+                                    "type": "boolean"
+                                  },
+                                  "vote": {
+                                    "type": "null"
+                                  }
+                                },
+                                "required": [
+                                  "cosign",
+                                  "pyong",
+                                  "vote"
+                                ]
+                              },
+                              "iq_by_action": {
+                                "type": "object",
+                                "properties": {
+                                  "accept": {
+                                    "type": "object",
+                                    "properties": {
+                                      "primary": {
+                                        "type": "object",
+                                        "properties": {
+                                          "multiplier": {
+                                            "type": "integer"
+                                          },
+                                          "base": {
+                                            "type": "number"
+                                          },
+                                          "applicable": {
+                                            "type": "boolean"
+                                          }
+                                        },
+                                        "required": [
+                                          "multiplier",
+                                          "base",
+                                          "applicable"
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "primary"
+                                    ]
+                                  },
+                                  "reject": {
+                                    "type": "object",
+                                    "properties": {
+                                      "primary": {
+                                        "type": "object",
+                                        "properties": {
+                                          "multiplier": {
+                                            "type": "integer"
+                                          },
+                                          "base": {
+                                            "type": "number"
+                                          },
+                                          "applicable": {
+                                            "type": "boolean"
+                                          }
+                                        },
+                                        "required": [
+                                          "multiplier",
+                                          "base",
+                                          "applicable"
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "primary"
+                                    ]
+                                  },
+                                  "delete": {
+                                    "type": "object",
+                                    "properties": {
+                                      "primary": {
+                                        "type": "object",
+                                        "properties": {
+                                          "multiplier": {
+                                            "type": "integer"
+                                          },
+                                          "base": {
+                                            "type": "number"
+                                          },
+                                          "applicable": {
+                                            "type": "boolean"
+                                          }
+                                        },
+                                        "required": [
+                                          "multiplier",
+                                          "base",
+                                          "applicable"
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "primary"
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "accept",
+                                  "reject",
+                                  "delete"
+                                ]
+                              }
+                            },
+                            "required": [
+                              "permissions",
+                              "excluded_permissions",
+                              "interactions",
+                              "iq_by_action"
+                            ]
+                          },
+                          "authors": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "attribution": {
+                                    "type": "number"
+                                  },
+                                  "pinned_role": {
+                                    "type": "null"
+                                  },
+                                  "user": {
+                                    "type": "object",
+                                    "properties": {
+                                      "api_path": {
+                                        "type": "string"
+                                      },
+                                      "avatar": {
+                                        "type": "object",
+                                        "properties": {
+                                          "tiny": {
+                                            "type": "object",
+                                            "properties": {
+                                              "url": {
+                                                "type": "string"
+                                              },
+                                              "bounding_box": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "width": {
+                                                    "type": "integer"
+                                                  },
+                                                  "height": {
+                                                    "type": "integer"
+                                                  }
+                                                },
+                                                "required": [
+                                                  "width",
+                                                  "height"
+                                                ]
+                                              }
+                                            },
+                                            "required": [
+                                              "url",
+                                              "bounding_box"
+                                            ]
+                                          },
+                                          "thumb": {
+                                            "type": "object",
+                                            "properties": {
+                                              "url": {
+                                                "type": "string"
+                                              },
+                                              "bounding_box": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "width": {
+                                                    "type": "integer"
+                                                  },
+                                                  "height": {
+                                                    "type": "integer"
+                                                  }
+                                                },
+                                                "required": [
+                                                  "width",
+                                                  "height"
+                                                ]
+                                              }
+                                            },
+                                            "required": [
+                                              "url",
+                                              "bounding_box"
+                                            ]
+                                          },
+                                          "small": {
+                                            "type": "object",
+                                            "properties": {
+                                              "url": {
+                                                "type": "string"
+                                              },
+                                              "bounding_box": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "width": {
+                                                    "type": "integer"
+                                                  },
+                                                  "height": {
+                                                    "type": "integer"
+                                                  }
+                                                },
+                                                "required": [
+                                                  "width",
+                                                  "height"
+                                                ]
+                                              }
+                                            },
+                                            "required": [
+                                              "url",
+                                              "bounding_box"
+                                            ]
+                                          },
+                                          "medium": {
+                                            "type": "object",
+                                            "properties": {
+                                              "url": {
+                                                "type": "string"
+                                              },
+                                              "bounding_box": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "width": {
+                                                    "type": "integer"
+                                                  },
+                                                  "height": {
+                                                    "type": "integer"
+                                                  }
+                                                },
+                                                "required": [
+                                                  "width",
+                                                  "height"
+                                                ]
+                                              }
+                                            },
+                                            "required": [
+                                              "url",
+                                              "bounding_box"
+                                            ]
+                                          }
+                                        },
+                                        "required": [
+                                          "tiny",
+                                          "thumb",
+                                          "small",
+                                          "medium"
+                                        ]
+                                      },
+                                      "header_image_url": {
+                                        "type": "string"
+                                      },
+                                      "human_readable_role_for_display": {
+                                        "type": "string"
+                                      },
+                                      "id": {
+                                        "type": "integer"
+                                      },
+                                      "iq": {
+                                        "type": "integer"
+                                      },
+                                      "login": {
+                                        "type": "string"
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "role_for_display": {
+                                        "type": "string"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "current_user_metadata": {
+                                        "type": "object",
+                                        "properties": {
+                                          "permissions": {
+                                            "type": "array",
+                                            "items": [
+                                              {
+                                                "type": "string"
+                                              }
+                                            ]
+                                          },
+                                          "excluded_permissions": {
+                                            "type": "array",
+                                            "items": {}
+                                          },
+                                          "interactions": {
+                                            "type": "object",
+                                            "properties": {
+                                              "following": {
+                                                "type": "boolean"
+                                              }
+                                            },
+                                            "required": [
+                                              "following"
+                                            ]
+                                          }
+                                        },
+                                        "required": [
+                                          "permissions",
+                                          "excluded_permissions",
+                                          "interactions"
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "api_path",
+                                      "avatar",
+                                      "header_image_url",
+                                      "human_readable_role_for_display",
+                                      "id",
+                                      "iq",
+                                      "login",
+                                      "name",
+                                      "role_for_display",
+                                      "url",
+                                      "current_user_metadata"
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "attribution",
+                                  "pinned_role",
+                                  "user"
+                                ]
+                              }
+                            ]
+                          },
+                          "cosigned_by": {
+                            "type": "array",
+                            "items": {}
+                          },
+                          "rejection_comment": {
+                            "type": "null"
+                          },
+                          "verified_by": {
+                            "type": "null"
+                          }
+                        },
+                        "required": [
+                          "api_path",
+                          "body",
+                          "comment_count",
+                          "community",
+                          "custom_preview",
+                          "has_voters",
+                          "id",
+                          "pinned",
+                          "share_url",
+                          "source",
+                          "state",
+                          "url",
+                          "verified",
+                          "votes_total",
+                          "current_user_metadata",
+                          "authors",
+                          "cosigned_by",
+                          "rejection_comment",
+                          "verified_by"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "_type",
+                  "annotator_id",
+                  "annotator_login",
+                  "api_path",
+                  "classification",
+                  "fragment",
+                  "id",
+                  "is_description",
+                  "path",
+                  "range",
+                  "song_id",
+                  "url",
+                  "verified_annotator_ids",
+                  "annotatable",
+                  "annotations"
+                ]
+              },
+              "featured_artists": {
+                "type": "array",
+                "items": {}
+              },
+              "lyrics_marked_complete_by": {
+                "type": "null"
+              },
+              "lyrics_marked_staff_approved_by": {
+                "type": "null"
+              },
+              "media": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "attribution": {
+                        "type": "string"
+                      },
+                      "provider": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "attribution",
+                      "provider",
+                      "type",
+                      "url"
+                    ]
+                  }
+                ]
+              },
+              "primary_artist": {
+                "type": "object",
+                "properties": {
+                  "api_path": {
+                    "type": "string"
+                  },
+                  "header_image_url": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "integer"
+                  },
+                  "image_url": {
+                    "type": "string"
+                  },
+                  "is_meme_verified": {
+                    "type": "boolean"
+                  },
+                  "is_verified": {
+                    "type": "boolean"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  },
+                  "iq": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "api_path",
+                  "header_image_url",
+                  "id",
+                  "image_url",
+                  "is_meme_verified",
+                  "is_verified",
+                  "name",
+                  "url",
+                  "iq"
+                ]
+              },
+              "producer_artists": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "api_path": {
+                        "type": "string"
+                      },
+                      "header_image_url": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "image_url": {
+                        "type": "string"
+                      },
+                      "is_meme_verified": {
+                        "type": "boolean"
+                      },
+                      "is_verified": {
+                        "type": "boolean"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "api_path",
+                      "header_image_url",
+                      "id",
+                      "image_url",
+                      "is_meme_verified",
+                      "is_verified",
+                      "name",
+                      "url"
+                    ]
+                  }
+                ]
+              },
+              "song_relationships": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "relationship_type": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "songs": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "relationship_type",
+                      "type",
+                      "songs"
+                    ]
+                  }
+                ]
+              },
+              "verified_annotations_by": {
+                "type": "array",
+                "items": {}
+              },
+              "verified_contributors": {
+                "type": "array",
+                "items": {}
+              },
+              "verified_lyrics_by": {
+                "type": "array",
+                "items": {}
+              },
+              "writer_artists": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "api_path": {
+                        "type": "string"
+                      },
+                      "header_image_url": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "image_url": {
+                        "type": "string"
+                      },
+                      "is_meme_verified": {
+                        "type": "boolean"
+                      },
+                      "is_verified": {
+                        "type": "boolean"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "api_path",
+                      "header_image_url",
+                      "id",
+                      "image_url",
+                      "is_meme_verified",
+                      "is_verified",
+                      "name",
+                      "url"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "annotation_count",
+              "api_path",
+              "apple_music_id",
+              "apple_music_player_url",
+              "artist_names",
+              "description",
+              "embed_content",
+              "featured_video",
+              "full_title",
+              "header_image_thumbnail_url",
+              "header_image_url",
+              "id",
+              "lyrics_owner_id",
+              "lyrics_placeholder_reason",
+              "lyrics_state",
+              "path",
+              "pyongs_count",
+              "recording_location",
+              "release_date",
+              "release_date_for_display",
+              "song_art_image_thumbnail_url",
+              "song_art_image_url",
+              "stats",
+              "title",
+              "title_with_featured",
+              "url",
+              "current_user_metadata",
+              "album",
+              "custom_performances",
+              "description_annotation",
+              "featured_artists",
+              "lyrics_marked_complete_by",
+              "lyrics_marked_staff_approved_by",
+              "media",
+              "primary_artist",
+              "producer_artists",
+              "song_relationships",
+              "verified_annotations_by",
+              "verified_contributors",
+              "verified_lyrics_by",
+              "writer_artists"
+            ]
+          }
+        },
+        "required": [
+          "song"
+        ]
+      }
+    },
+    "required": [
+      "meta",
+      "response"
+    ]
+  }
