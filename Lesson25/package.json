@@ -1,0 +1,17 @@
+{
+  "name": "lesson-25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jest": "^28.0.2",
+    "jest-json-schema": "^6.1.0",
+    "jsonschema": "^1.4.0"
+  }
+}
